@@ -1,22 +1,23 @@
 <script>
 import AppHeader from "@/components/AppHeader.vue";
 export default {
-components: {
-AppHeader,
-},
+    components: {
+        AppHeader,
+    },
 };
 </script>
 <template>
-<div id="app">
-<AppHeader />
-<div class="container mt-3">
-<router-view />
-</div>
-</div>
+    <div id="app">
+        <AppHeader />
+        <div class="container-fluid mt-3">
+            <router-view />
+        </div>
+    </div>
+
 </template>
 <style>
 .page {
-max-width: 400px;
-margin: auto;
+    max-width: 100%;
+    margin: auto;
 }
 </style>
