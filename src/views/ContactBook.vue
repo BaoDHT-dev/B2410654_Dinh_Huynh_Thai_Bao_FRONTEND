@@ -45,15 +45,18 @@
 </template>
 <script>
 import ContactCard from "@/components/ContactCard.vue";
+import MakeNew from "@/components/MakeNew.vue";
 import InputSearch from "@/components/InputSearch.vue";
 import ContactList from "@/components/ContactList.vue";
 import ContactService from "@/services/contact.service";
 export default {
 
     components: {
-        ContactCard,
+        MakeNew,
         InputSearch,
+        ContactCard,
         ContactList,
+        
     },
     data() {
         return {
